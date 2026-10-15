@@ -1,0 +1,16 @@
+# Core (preprocessing + classical ML + evaluation)
+pandas>=1.5
+numpy>=1.23
+scikit-learn>=1.2
+matplotlib>=3.6
+joblib>=1.2
+
+# Deep learning (BiLSTM / TextCNN)
+torch>=2.0
+
+# Transformers (BanglaBERT fine-tuning)
+transformers>=4.41
+accelerate>=0.26
+
+# Optional: official BanglaBERT text normaliser (recommended for csebuetnlp/banglabert)
+# pip install git+https://github.com/csebuetnlp/normalizer
